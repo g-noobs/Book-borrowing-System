@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookBorrowingSystemForm", "BookBorrowingSystemForm.csproj", "{D5D6DCD5-14E6-4BBC-BB32-F41B43D0DA89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D6DCD5-14E6-4BBC-BB32-F41B43D0DA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D6DCD5-14E6-4BBC-BB32-F41B43D0DA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D6DCD5-14E6-4BBC-BB32-F41B43D0DA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D6DCD5-14E6-4BBC-BB32-F41B43D0DA89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {344FB5D6-C43D-4B36-815C-FC2222B3F456}
+	EndGlobalSection
+EndGlobal
