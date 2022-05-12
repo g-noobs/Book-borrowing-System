@@ -31,6 +31,7 @@
             this.LoginPagTestLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // LoginPagTestLabel
@@ -64,11 +65,20 @@
             this.checkedListBox1.Size = new System.Drawing.Size(159, 40);
             this.checkedListBox1.TabIndex = 2;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(87, 364);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(196, 23);
+            this.comboBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LoginPagTestLabel);
@@ -83,5 +93,6 @@
         private Label LoginPagTestLabel;
         private Button button1;
         private CheckedListBox checkedListBox1;
+        private ComboBox comboBox1;
     }
 }
